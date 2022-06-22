@@ -23,3 +23,6 @@ def sum(x=0,y=0):
 s = sum(3,7)
 print(s)
 print(sum())
+
+mysum = lambda x,y:x+y
+print(mysum(10,12))
