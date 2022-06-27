@@ -5,4 +5,6 @@ def division(number1,number2):
             print(i)
         i+=1
 
-division(50,12)        
+num1 = int(input("please enter the first number :"))
+num2 = int(input("please enter the second number :"))
+division(num1,num2)
