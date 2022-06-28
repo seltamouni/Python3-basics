@@ -6,4 +6,5 @@ def divTwoNumbers(number1,number2):
 
 div1 = int(input("enter the first number :"))
 div2 = int(input("enter the second number :"))
-divTwoNumbers(div1,div2)
+divTwoNumbes(div1,div2)
+divTwoNumbers(1000,300)

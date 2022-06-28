@@ -1,17 +1,21 @@
 def listPairImp(list):
-    list_pair =[]
-    list_impair =[]
-    for number in list:
-        
-        if number%2 == 0:
-            list_pair.append(number)
-        else:
-            list_impair.append(number)
+        list_pair =[]
+        list_impair =[]
+        for number in list:
+            
+            if int(number)%2 == 0:
+                list_pair.append(int(number))
+            else:
+                list_impair.append(int(number))
 
-    print(list_pair)
-    print(list_impair)
+        return(list_pair,list_impair)    
+li = input("enter a list of numbers: ")
+s = list(li.split(","))
 
-listPairImp([0,1,2,3,4,5,6,7,8,9,10])
+result = listPairImp(s)
+print(result)
+
+
 
 
 
