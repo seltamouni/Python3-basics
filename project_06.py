@@ -12,6 +12,8 @@ class Game:
             
             ''')
             play = input("choose number to play one of games or x to exit :")
+            if play== 'x':
+                break
             if int(play) ==1:
                 li = input("enter a list of numbers: ")
                 s = list(li.split(","))
@@ -37,8 +39,7 @@ class Game:
                 div1 = int(input("enter the first number :"))
                 div2 = int(input("enter the second number :"))
                 self.divTwoNumbers(div1,div2)
-            if play== 'x':
-                break
+            
             
     #---------game01----------            
     def listPairImp(self,list):
