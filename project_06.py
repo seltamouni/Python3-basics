@@ -13,6 +13,7 @@ class Game:
             ''')
             play = input("choose number to play one of games or x to exit :")
             if play== 'x':
+                print("thanks for your time hope see you again")
                 break
             if int(play) ==1:
                 li = input("enter a list of numbers: ")
